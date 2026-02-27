@@ -27,14 +27,7 @@ const projects: Project[] = [
     github: "https://github.com/Furqatovm/Green-shop",
     image: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/7c85567a-0756-41aa-8fbb-329e6c752ba4.png"
   },
-  {
-    title: "Elite sat Platform",
-    description: "An online platform for Temurbek School students to browse courses and register for classes easily.",
-    tags: ["React", "TypeScript", "ANT Design", "Redux Toolkit", "API", "Axios"],
-    link: "https://elite-sat-prep-platform.vercel.app/",
-    github: "https://github.com/Furqatovm/elite-sat-prep-platform",
-    image: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/f2e972d9-193b-43bb-9e25-24137cc9b07d.png"
-  },
+  
   {
     title: "Temurbek school",
     description: "Official website for Temurbek School, showcasing courses, news, and student resources.",
@@ -42,6 +35,14 @@ const projects: Project[] = [
     link: "https://muxammadyusuf.uz",
     github: "https://github.com/Furqatovm/Temurbek_school_website",
     image: "https://muxammadyusuf.uz/myprojects/image.png"
+  },
+  {
+    title: "Elite sat Platform",
+    description: "An online platform for Temurbek School students to browse courses and register for classes easily.",
+    tags: ["React", "TypeScript", "ANT Design", "Redux Toolkit", "API", "Axios"],
+    link: "https://elite-sat-prep-platform.vercel.app/",
+    github: "https://github.com/Furqatovm/elite-sat-prep-platform",
+    image: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/f2e972d9-193b-43bb-9e25-24137cc9b07d.png"
   },
   {
     title: "Next todo",
