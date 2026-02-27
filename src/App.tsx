@@ -52,7 +52,7 @@ const projects: Project[] = [
     image: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/6c8d2508-f6f1-433e-8b50-9f08684fd19a.png"
   },
   {
-    title: "Khan academy",
+    title: "Start up prototype",
     description: "A project created as a prototype for the start-up to give basic idea of what it looks like",
     tags: ["HTML", "CSS", "JavaScript", "DOM Manipulation"],
     link: "https://uniquesite.vercel.app/",
