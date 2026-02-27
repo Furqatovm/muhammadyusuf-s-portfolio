@@ -36,14 +36,6 @@ const projects: Project[] = [
     image: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/f2e972d9-193b-43bb-9e25-24137cc9b07d.png"
   },
   {
-    title: "uzum Market",
-    description: "An e-commerce platform offering a wide range of products with smooth user experience and responsive design.",
-    tags: ["React", "JavaScript", "ANT Design", "API", "Axios"],
-    link: "https://uzum-react-umber.vercel.app/",
-    github: "https://github.com/Furqatovm/uzumReact",
-    image: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/ebf4564f-ce73-4a49-b492-a4d0286b5f83.png"
-  },
-  {
     title: "Quiz app",
     description: "A web-based quiz application for students to practice tests, built with Python, Flask, SQLite3, JavaScript, HTML, and CSS.",
     tags: ["Python", "Flask", "SQLite3", "JavaScript", "HTML", "CSS"],
