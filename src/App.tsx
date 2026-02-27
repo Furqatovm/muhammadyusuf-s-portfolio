@@ -36,14 +36,6 @@ const projects: Project[] = [
     image: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/f2e972d9-193b-43bb-9e25-24137cc9b07d.png"
   },
   {
-    title: "Quiz app",
-    description: "A web-based quiz application for students to practice tests, built with Python, Flask, SQLite3, JavaScript, HTML, and CSS.",
-    tags: ["Python", "Flask", "SQLite3", "JavaScript", "HTML", "CSS"],
-    link: "https://tests-nmk7.onrender.com",
-    github: "https://github.com/Furqatovm",
-    image: "https://muxammadyusuf.uz/myprojects/quiz%20app.png"
-  },
-  {
     title: "Next todo",
     description: "A minimalist Next.js todo application with end-to-end encryption, focusing on privacy and productivity.",
     tags: ["Next.js", "TypeScript", "Redux Toolkit", "Mock API", "Tailwind CSS"],
@@ -58,6 +50,14 @@ const projects: Project[] = [
     link: "https://muxammadyusuf.uz",
     github: "https://github.com/Furqatovm/Temurbek_school_website",
     image: "https://muxammadyusuf.uz/myprojects/image.png"
+  },
+  {
+    title: "Quiz app",
+    description: "A web-based quiz application for students to practice tests, built with Python, Flask, SQLite3, JavaScript, HTML, and CSS.",
+    tags: ["Python", "Flask", "SQLite3", "JavaScript", "HTML", "CSS"],
+    link: "https://tests-nmk7.onrender.com",
+    github: "https://github.com/Furqatovm",
+    image: "https://muxammadyusuf.uz/myprojects/quiz%20app.png"
   },
   {
     title: "Khan academy",
@@ -90,7 +90,7 @@ export default function App() {
             <a href="#contact" className="hover:text-white transition-colors">Contact</a>
             <button 
              onClick={() => window.open("/cv.pdf", "_blank")}
-              className="px-4 py-2 bg-white text-black rounded-full hover:bg-emerald-500 hover:text-white transition-all duration-300 flex items-center gap-2"
+              className="px-4 cursor-pointer py-2 bg-white text-black rounded-full hover:bg-emerald-500 hover:text-white transition-all duration-300 flex items-center gap-2"
             >
               <Download size={16} />
               Resume
