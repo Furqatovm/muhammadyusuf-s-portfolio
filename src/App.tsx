@@ -7,7 +7,7 @@ interface Project {
   tags: string[];
   link: string;
   github?: string;
-  image: string;
+  image: any;
 }
 
 const projects: Project[] = [
@@ -32,9 +32,9 @@ const projects: Project[] = [
     title: "Temurbek school",
     description: "Official website for Temurbek School, showcasing courses, news, and student resources.",
     tags: ["HTML", "CSS", "JavaScript"],
-    link: "https://muxammadyusuf.uz",
-    github: "https://github.com/Furqatovm/Temurbek_school_website",
-    image: "https://muxammadyusuf.uz/myprojects/image.png"
+    link: "https://temur-school-main.vercel.app/",
+    github: "https://github.com/Furqatovm/Temur-school-main",
+    image: "/project3.png"
   },
   {
     title: "Elite sat Platform",
@@ -45,29 +45,38 @@ const projects: Project[] = [
     image: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/f2e972d9-193b-43bb-9e25-24137cc9b07d.png"
   },
   {
-    title: "Next todo",
-    description: "A minimalist Next.js todo application with end-to-end encryption, focusing on privacy and productivity.",
-    tags: ["Next.js", "TypeScript", "Redux Toolkit", "Mock API", "Tailwind CSS"],
-    link: "https://next-todo-muhammadyusuf.vercel.app/",
-    github: "https://github.com/Furqatovm/next-todoapp",
-    image: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/6c8d2508-f6f1-433e-8b50-9f08684fd19a.png"
+    title: "Language learning landing page",
+    description: "A minimalist React Language learning website where you can feel like learning smoothly.",
+    tags: ["React", "Javascript", "Redux Toolkit",  "Tailwind CSS"],
+    link: "https://homework-11-main.vercel.app/",
+    github: "https://github.com/Furqatovm/homework-11-main",
+    image: "/project1.png"
   },
   {
-    title: "Start up prototype",
-    description: "A project created as a prototype for the start-up to give basic idea of what it looks like",
-    tags: ["HTML", "CSS", "JavaScript", "DOM Manipulation"],
-    link: "https://uniquesite.vercel.app/",
-    github: "https://github.com/Furqatovm/exam-until-wednesday",
-    image: "https://muxammadyusuf.uz/myprojects/Screenshot%202025-04-20%20142215.png"
+    title: "Portfolio website",
+    description: "This website is created to help those who need beautifully desinged protfolio",
+    tags: ["html", "css", "Javascript", "Dom manipulation"],
+    link: "https://muhammadyusufuz.vercel.app/",
+    github: "https://github.com/Furqatovm/Mening_eng_yaxshi-portfoliom",
+    image: "/project2.png"
+  },
+  
+  {
+    title: "Guitar store app",
+    description: "A project created to give a quick example and overview of what store offers",
+    tags: ["React",  "JavaScript", "Router"],
+    link: "https://guitar-plum.vercel.app/",
+    github: "https://github.com/Furqatovm/guitar",
+    image: "/project4.png"
   },
  
   {
-    title: "Quiz app",
-    description: "A web-based quiz application for students to practice tests, built with Python, Flask, SQLite3, JavaScript, HTML, and CSS.",
-    tags: ["Python", "Flask", "SQLite3", "JavaScript", "HTML", "CSS"],
-    link: "https://tests-nmk7.onrender.com",
-    github: "https://github.com/Furqatovm",
-    image: "https://muxammadyusuf.uz/myprojects/quiz%20app.png"
+    title: "A startup prototype",
+    description: "A website created to give quick overview of the startup prototype",
+    tags: ["html", "css", "Javascript", "Dom manipulation"],
+    link: "https://uniquesite.vercel.app/",
+    github: "https://github.com/Furqatovm/exam-until-wednesday",
+    image: "/project5.png"
   },
   
 ];
